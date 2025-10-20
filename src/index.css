@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --eucalyptus: #0b6b5d;
+  --accent: #00b894;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(11,107,93,0.08), rgba(0,184,148,0.04));
+}
+
+.card-bg { background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(250,250,250,0.6)); }
